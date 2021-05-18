@@ -1,0 +1,88 @@
+header{
+  padding: 0;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    /* background-color: darkgrey; */
+    align-items: center;
+}
+.title {
+    margin-right: auto;
+  }
+
+ .nav{
+   padding-right: 91px;
+ } 
+
+  .menu-item {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  header h1{
+    padding-left: 194px;
+    font-size: 45px;
+  }
+
+  header li{
+    font-size: 25px;
+    font-color:black;
+    padding-right: 91px;
+  }
+
+  /* メインコンテンツ1 */
+
+  .container h1 {
+    text-align: center;
+    padding-top: 86px;
+    font-size: 45px;
+  }
+
+  .contents-inner{
+    display: flex;
+  }
+
+  .left{
+    /* width: 50px;
+    height: 50px;
+    background-color: aqua; */
+    margin-left: 197px;
+    margin-right: 54px;
+  }
+  .right p{
+    /* width: 300px;
+    height: 300px;
+    background-color:red; */
+    font-size: 30px;
+  }
+  
+
+  /* メインコンテンツ2 */
+
+  .container-two h1 {
+    text-align: center;
+    padding-top: 86px;
+    font-size: 45px;
+  }
+  .contents-inner-two{
+    display: flex;
+    justify-content: center;
+  }
+  .contents-inner-two img{
+    width: 516px;
+    height:258px;
+    margin-right: 57px;
+  }
+
+  .item-description {
+    justify-content: center;
+  }
+
+  .item-description li{
+    font-size: 30px;
+  }
+
+ figcaption{
+font-size:30px;
+ }
