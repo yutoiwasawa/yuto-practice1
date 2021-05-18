@@ -10,9 +10,9 @@ header{
     margin-right: auto;
   }
 
- .nav{
-   padding-right: 91px;
- } 
+.nav{
+  padding-right: 91px;
+} 
 
   .menu-item {
     list-style: none;
@@ -27,7 +27,7 @@ header{
 
   header li{
     font-size: 25px;
-    font-color:black;
+    color:black;
     padding-right: 91px;
   }
 
@@ -60,7 +60,7 @@ header{
 
   /* メインコンテンツ2 */
 
-  .container-two h1 {
+  .cose-container h1 {
     text-align: center;
     padding-top: 86px;
     font-size: 45px;
@@ -83,6 +83,46 @@ header{
     font-size: 30px;
   }
 
- figcaption{
+figcaption{
 font-size:30px;
- }
+}
+
+/* 問い合わせ */
+.form-container {
+  height: 700px;
+}
+
+.main-title-two{
+text-align: center;
+padding-top: 86px;
+font-size: 24px;
+}
+
+.input-area {
+  display: flex;
+  justify-content: center;
+}
+.input-area input {
+  width: 650px;
+  height: 55px;
+  border-color: rgb(151, 151, 151);
+  border-radius: 32px;
+}
+
+.send-button-area{
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+.send-button-area button {
+  width: 400px;
+  height: 85px;
+  background-color: rgb(250, 116, 116);
+  border-style: none;
+
+}
+.send-button-area button p{
+  color: white;
+  font-size: 25px;
+  margin: auto;
+}
